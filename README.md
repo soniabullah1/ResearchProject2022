@@ -37,7 +37,10 @@ Table II indicates that, similar to the non-surrogate variant, the NSGA-II algor
 
 Based on Table III above, we see that each of the four learnheuristic algorithms outperform the backtest run without a learnheuristic algorithm. The portfolios that run by utilising the surrogate-assisted genetic algorithms to find the optimal weights for asset allocation yield higher returns for a lower percentage of risk and also produce greater Sharpe ratios.
 
+## Recommendations for Future Work:
+The parameters of the learnheuristic algorithms are incredibly sensitive. Therefore, in future research, implementing a search algorithm, such as a random search or a grid search, to tune the parameters would be beneficial. This, in turn, may also assist with allowing the learnheuristic algorithms to consider portfolios with more than ten assets and still produce optimal results. 
 
-
-
-
+## Installation Guide:
+1. Download the full project and unzip the 'Dataset' folder.
+2. Ensure that the latest versions of the *PyPortfolioOpt*, *Pymoo*, *Pysamoo* and *portfolio-backtest* frameworks are installed on the machine. Links to the documentation of these libraries can be found in the research report above.
+3. Run the Jupyter Notebook code from the top.

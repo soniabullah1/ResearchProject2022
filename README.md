@@ -25,17 +25,17 @@ Based on the results from Table I, it is evident that the NSGA-II algorithm take
 </p>
 
 <p align="center">
-<img width="815" alt="Screenshot 2022-11-14 at 00 25 39" src="https://user-images.githubusercontent.com/81515681/201547844-a99919d5-7415-44e5-9fd4-90d0aab13aa8.png">
+<img width="816" alt="Screenshot 2022-11-19 at 17 47 40" src="https://user-images.githubusercontent.com/81515681/202859315-236fe231-a455-4f58-97d3-f74d4411539a.png">
 </p>
 
 Table II indicates that, similar to the non-surrogate variant, the NSGA-II algorithm yields the highest hypervolume, thus making it the most efficient algorithm. Fig. 2-5 each indicate that the learnheuristic algorithms produce higher hypervolumes and converge sooner compared to the baseline algorithms, despite taking significantly longer to run to completion.
 
 ### Backtesting
 <p align="center">
-<img width="500" alt="Screenshot 2022-11-14 at 00 26 56" src="https://user-images.githubusercontent.com/81515681/201547846-3133683b-5299-4f3c-8d9d-c7e653ff2068.png">
+<img width="500" alt="Screenshot 2022-11-19 at 17 47 25" src="https://user-images.githubusercontent.com/81515681/202859321-13b1db08-86d6-44c4-950d-1003c3ba3b6f.png">
 </p>
 
-Based on Table III above, we see that each of the four learnheuristic algorithms outperform the backtest run without a learnheuristic algorithm. The portfolios that run by utilising the surrogate-assisted genetic algorithms to find the optimal weights for asset allocation yield higher returns for a lower percentage of risk and also produce greater Sharpe ratios.
+From Table III above, we see that each of the four learnheuristic algorithms outperform the backtest run without a learnheuristic algorithm. The portfolios that run by utilising the surrogate-assisted genetic algorithms to find the optimal weights for asset allocation yield higher returns for a lower percentage of risk and also produce greater Sharpe ratios.
 
 ## Recommendations for Future Work:
 The parameters of the learnheuristic algorithms are incredibly sensitive. Therefore, in future research, implementing a search algorithm, such as a random search or a grid search, to tune the parameters would be beneficial. This, in turn, may also assist with allowing the learnheuristic algorithms to consider portfolios with more than ten assets and still produce optimal results. 

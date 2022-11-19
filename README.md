@@ -21,7 +21,7 @@ Based on the results from Table I, it is evident that the NSGA-II algorithm take
 
 ### Learnheuristic algorithms
 <p align="center">
-<img width="500" alt="Screenshot 2022-11-20 at 01 54 53" src="https://user-images.githubusercontent.com/81515681/202876164-3bfc8bab-0ffb-4d61-8c4f-6b10f2811496.png">
+<img width="500" alt="Screenshot 2022-11-20 at 01 56 49" src="https://user-images.githubusercontent.com/81515681/202876200-3eec3e0d-5d59-48fb-8d49-f42cd57de7ca.png">
 </p>
 
 <p align="center">
